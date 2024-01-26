@@ -30,7 +30,9 @@
            fetch="https://gitlab.com/"
            sync-c="true"
            sync-j="4"
-           revision="refs/heads/12.1" />      
+           revision="refs/heads/12.1" /> 
+
+  <default revision="master" remote="origin"/>
       
 
   <superproject name="platform/superproject" remote="aosp" revision="android-12.1.0_r22" />
