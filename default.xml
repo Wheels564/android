@@ -32,7 +32,7 @@
            sync-j="4"
            revision="refs/heads/12.1" /> 
   
-  <remote  name="wheels564"
+  <remote  name="Wheels564"
            fetch="https://github.com/"
            sync-c="true"
            sync-j="4"
