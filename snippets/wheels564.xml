@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<manifest>
+
+  <!-- wheels564 additions -->
+  <project path="android" name="Wheels564/android" remote="crdroid" />
+  
+  <project path="frameworks/base" name="Wheels564/android_frameworks_base" remote="github" revision="19.1" />
+  <project path="packages/apps/CarrierConfig" remote="github" name="Wheels564/android_packages_apps_CarrierConfig" revision="lineage-19.1" />
+  <project path="packages/apps/Messaging" remote="github" name="Wheels564/android_packages_apps_Messaging" revision="lineage-18.1" />
+  <project path="packages/providers/TelephonyProvider" remote="github" name="Wheels564/android_packages_providers_TelephonyProvider" revision="lineage-19.1" />  
+  <project path="vendor/lineage" remote="github" name="Wheels564/android_vendor_crdroid" revision="12.1" />
+</manifest>
