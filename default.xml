@@ -31,8 +31,14 @@
            sync-c="true"
            sync-j="4"
            revision="refs/heads/12.1" /> 
+  
+  <remote  name="wheels564"
+           fetch="https://github.com/"
+           sync-c="true"
+           sync-j="4"
+           revision="refs/heads/12.1" />
 
-  <default revision="master" remote="origin"/>
+  <default revision="12.1" remote="origin"/>
       
 
   <superproject name="platform/superproject" remote="aosp" revision="android-12.1.0_r22" />
